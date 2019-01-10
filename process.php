@@ -1,4 +1,5 @@
-<?php
+<?php ob_start()
+  
   if(isset($_POST['submit'])) {
     
     $to = "smellssea@gmail.com";
@@ -12,5 +13,6 @@
     
     header("Location: contact.html")
 
+echo "We will contact with you! Have a fun* !"      
   }
 ?>
