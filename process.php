@@ -10,7 +10,7 @@
     
     mail($to, $subject, $email, $txt, $headers );
     
-    header(. "Location: contact.html")
+    header("Location: contact.html")
 
   }
 ?>
